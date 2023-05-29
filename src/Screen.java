@@ -1,8 +1,12 @@
-public class Purchase implements Product{
+public class Screen implements Product{
     private String name;
     private double price;
     private int rating;
-
+    Screen(String name, double price, int rating){
+        this.name=name;
+        this.price=price;
+        this.rating=rating;
+    }
     @Override
     public void setName(String name) {
         this.name = name;

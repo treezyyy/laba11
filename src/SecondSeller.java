@@ -1,6 +1,11 @@
-public class Seller implements User{
+public class SecondSeller implements User {
     private String login;
     private String password;
+
+    SecondSeller(String login, String password){
+        this.login = login;
+        this.password = password;
+    }
 
     @Override
     public void setLogin(String login) {
